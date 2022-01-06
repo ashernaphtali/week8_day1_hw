@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import stpete from './pier.jpg';
 
-export default class Contact extends Component {
+export default class StPete extends Component {
+    
+    constructor() {
+        super();
+        this.state = {
+            name : 'Asher',
+            company : "RSM"
+        }
+    } 
+    
     render() {
         return (
             <div>
